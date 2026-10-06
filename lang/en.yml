@@ -1,0 +1,96 @@
+en:
+  YouWillLikeIT\GridFieldToolkit\Component\InlineEdit\GridFieldInlineEdit:
+    CONFLICT: 'Conflict: record modified by another user.'
+    CSRF: 'Security token expired. Reload the page and try again.'
+    FORBIDDEN: 'You are not allowed to edit this record.'
+    LOAD_FAILED: 'Could not load the choices.'
+    NOT_FOUND: 'This record no longer exists.'
+    SAVE_FAILED: 'Could not save the change.'
+    UNDONE: 'Change undone.'
+    UNDO_CONFLICT: 'Cannot undo: the record was changed in the meantime.'
+  YouWillLikeIT\GridFieldToolkit\Component\InlineEdit\GridFieldUndoManager:
+    EXPIRED: 'The undo period has expired.'
+    SAVED: 'Change saved.'
+    UNDO: Undo
+  YouWillLikeIT\GridFieldToolkit\Component\InlineEdit\Editor\ToggleEditor:
+    INVALID: 'Invalid value for a toggle.'
+  YouWillLikeIT\GridFieldToolkit\Component\InlineEdit\Editor\TextEditor:
+    HINT: 'Double-click or press Enter to edit'
+    INVALID: 'Invalid text value.'
+    NO_NEWLINES: 'Line breaks are not allowed here.'
+    REQUIRED: 'This field is required.'
+    TOO_LONG: 'Maximum length is {max} characters.'
+  YouWillLikeIT\GridFieldToolkit\Component\InlineEdit\Editor\NumericEditor:
+    HINT: 'Double-click or press Enter to edit'
+    INTEGER: 'Enter a whole number.'
+    INVALID: 'Enter a valid number.'
+    MAX: 'Maximum value is {max}.'
+    MIN: 'Minimum value is {min}.'
+    REQUIRED: 'A number is required.'
+  YouWillLikeIT\GridFieldToolkit\Component\InlineEdit\Editor\SelectEditor:
+    HINT: 'Double-click or press Enter to edit'
+    INVALID: 'Invalid choice.'
+  YouWillLikeIT\GridFieldToolkit\Component\InlineEdit\Editor\DependentSelectEditor:
+    INVALID_FOR_PARENT: 'This choice is not available for the current {parent} value.'
+  YouWillLikeIT\GridFieldToolkit\Component\Layout\GridFieldFullscreenToggle:
+    ENTER: Fullscreen
+    EXIT: 'Exit fullscreen'
+  YouWillLikeIT\GridFieldToolkit\Component\Layout\GridFieldAccordion:
+    COLLAPSE: 'Hide details'
+    EXPAND: 'Show details'
+    LOADING: 'Loading…'
+    LOAD_FAILED: 'Could not load the details.'
+  YouWillLikeIT\GridFieldToolkit\Component\Layout\GridFieldMasterDetail:
+    CLOSE: Close
+    CONFIRM_LEAVE: 'This record has unsaved changes. Discard them?'
+    LOADING: 'Loading…'
+    TITLE: 'Record details'
+  YouWillLikeIT\GridFieldToolkit\Component\Board\GridFieldKanbanView:
+    BOARD: Board
+    CONFLICT: 'This card was changed by someone else. Board refreshed.'
+    EMPTY: 'No cards'
+    HELP: 'Drag cards between lanes, or focus a card and press Alt + Left / Right.'
+    LIST: List
+    LOADING: 'Loading…'
+    LOAD_FAILED: 'Could not load the board.'
+    MOVED: 'Moved to'
+    MOVE_FAILED: 'Could not move the card.'
+    OTHER: Other
+    TRUNCATED: 'Only the first cards are shown.'
+  YouWillLikeIT\GridFieldToolkit\Component\Bulk\Action\DeleteBulkAction:
+    CONFIRM: 'Delete the selected records?'
+    LABEL: Delete
+  YouWillLikeIT\GridFieldToolkit\Component\Bulk\GridFieldStashBulk:
+    CLEAR: Clear
+    CONFIRM: 'Run this action on {count} records?'
+    DONE: '{count} done.'
+    FAILED: 'The action failed.'
+    LIMIT: 'At most {max} records can be selected.'
+    PARTIAL: '{count} done, {failed} failed.'
+    SELECTED: '{count} selected'
+    SELECT_ALL: 'Select all on this page'
+    SELECT_ROW: 'Select row'
+  YouWillLikeIT\GridFieldToolkit\Component\Link\GridFieldLinkedFilter:
+    HINT: 'Select a row in the master list to show its records.'
+    HINT_NAMED: 'Select a row in "%s" to show its records.'
+  YouWillLikeIT\GridFieldToolkit\Component\Transfer\GridFieldTransferTarget:
+    CANCEL: Cancel
+    COPY: 'Copy here'
+    DONE: '{count} done.'
+    FAILED: 'The transfer failed.'
+    MOVE: 'Move here'
+    PARTIAL: '{count} done, {failed} failed.'
+  YouWillLikeIT\GridFieldToolkit\Component\Columns\GridFieldColumnManager:
+    COLUMNS: Columns
+    RESET: 'Show all'
+  YouWillLikeIT\GridFieldToolkit\Component\Columns\GridFieldHeaderHelp:
+    LABEL: 'Help for column {column}'
+  YouWillLikeIT\GridFieldToolkit\Component\Translation\GridFieldTranslationStatus:
+    DRAFT: draft
+    MISSING: missing
+    PUBLISHED: translated
+    TITLE: Translations
+  YouWillLikeIT\GridFieldToolkit\Component\Relation\GridFieldNestedRelation:
+    CLOSE: Close
+    CONFIRM_LEAVE: 'This record has unsaved changes. Discard them?'
+    LOADING: 'Loading…'

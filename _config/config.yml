@@ -1,0 +1,10 @@
+---
+Name: youwilllikeit-gridfield-toolkit
+---
+# Loaded once for every CMS page, so the bundle is present after GridField XHR reloads too.
+# Entwine mounts the features on the markers each GridField render emits.
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'youwilllikeit/silverstripe-gridfield-toolkit: client/dist/js/toolkit.js'
+  extra_requirements_css:
+    - 'youwilllikeit/silverstripe-gridfield-toolkit: client/dist/styles/toolkit.css'

@@ -1,0 +1,16 @@
+{
+  "name": "@youwilllikeit/gridfield-toolkit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Client bundle of the YouWillLikeIT GridField Toolkit (Silverstripe 6)",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch --mode development",
+    "test": "node --test \"client/tests/**/*.test.mjs\""
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "vite": "^7.0.0"
+  }
+}
